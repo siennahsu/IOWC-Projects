@@ -1,0 +1,30 @@
+\COPY annualcycles(station, month, mean, standard_deviation, ‘2_5‘, ‘17‘, ‘50‘, ‘83‘, ‘97_5‘)
+FROM '/Users/Sienna/Sites/IOWC_site/database_files/annual_cycles_data.csv'
+DELIMITER ','
+CSV HEADER;
+
+\COPY anomalies(station, year, january, february, march, april, may, june, july, august, september, october, november, december)
+FROM '/Users/Sienna/Sites/IOWC_site/database_files/anomaly_data.csv'
+DELIMITER ','
+CSV HEADER;
+
+\COPY anomalies_percentages(station, year, january, february, march, april, may, june, july, august, september, october, november, december)
+FROM '/Users/Sienna/Sites/IOWC_site/database_files/anomaly_data.csv'
+DELIMITER ','
+CSV HEADER;
+
+
+\COPY countrycodes(code, country)
+FROM '/Users/Sienna/Sites/IOWC_site/database_files/country_codes.csv'
+DELIMITER ','
+CSV HEADER;
+
+\COPY prcp(station, identifier, year, january, february, march, april, may, june, july, august, september, october, november, december)
+FROM '/Users/Sienna/Sites/IOWC_site/database_files/detailed_prcp_data.csv'
+DELIMITER ','
+CSV HEADER;
+
+\COPY stationmetadata(station, identifier, name, region, country, latitude, longitude, elevation)
+FROM '/Users/Sienna/Sites/IOWC_site/database_files/detailed_station_metadata_updated_regions.csv'
+DELIMITER ','
+CSV HEADER;
