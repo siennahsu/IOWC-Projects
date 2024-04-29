@@ -16,7 +16,7 @@ For a given threshold (which is set to 100 in the code), we define the following
 
 For this task, we do the following: 
 
-1. Using the resulting all_stations_data.csv file from the task listed in /IOWC-Projeccts/rainfall_data, extract seasonal and annual rainfall and their averages.
+1. Using the resulting `all_stations_data.csv` file from the task listed in `/IOWC-Projeccts/rainfall_data`, extract seasonal and annual rainfall and their averages.
 
 2. Additionally, we produce a csv file of only the dry seasons of each location and a csv file of only the rainy seasons.
 
@@ -24,7 +24,7 @@ For this task, we do the following:
 
 # Preparation and Environment
 
-1. Be sure to have the all_stations_data.csv file for the rainfall_selection script.
+1. Be sure to have the `all_stations_data.csv` file for the `rainfall_selection.ipynb` script.
 
 2. This script runs pretty fast so using your machine is fine.
 
@@ -40,7 +40,7 @@ For this task, we do the following:
 
 2. The possible resulting files are:
    
-   - rainfall_seasonal.csv that contains all the seasonal data.
-   - rainfall_seasonal_dry.csv that contains all the dry seasons' data.
-   - rainfall_seasonal_rainy.csv that contains all the rainy seasons' data.
-   - rainfall_annual.csv that contains the annual rainfall data.
+   - `rainfall_seasonal.csv` that contains all the seasonal data.
+   - `rainfall_seasonal_dry.csv` that contains all the dry seasons' data.
+   - `rainfall_seasonal_rainy.csv` that contains all the rainy seasons' data.
+   - `rainfall_annual.csv` that contains the annual rainfall data.
