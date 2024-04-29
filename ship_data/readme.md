@@ -1,8 +1,8 @@
 # Task
 
-Given the csv file ICOADS_R3.0_Rqst705541_18150101.csv, expand the dataset with comments in IMMA1 files from this site: https://rda.ucar.edu/datasets/ds548.0/dataaccess/#.
+Given the csv file `ICOADS_R3.0_Rqst705541_18150101.csv`, expand the dataset with comments in IMMA1 files from this site: https://rda.ucar.edu/datasets/ds548.0/dataaccess/#.
 
-The ICOADS_R3.0_Rqst705541_18150101.csv records (rows) have unique IDs that correspond to IDs in the IMMA1 files. IMMA1 files are however not formatted in a csv-friendly way. This task extracts the texts that comment qualitatively on weather in the IMMA1 files. The texts roughly correspond to 9 specific positions in a line; therefore we extract the information in those 9 positions in each line. Some comment examples are "CLOUDY", "GOED WEER".
+The `ICOADS_R3.0_Rqst705541_18150101.csv` records (rows) have unique IDs that correspond to IDs in the IMMA1 files. IMMA1 files are however not formatted in a csv-friendly way. This task extracts the texts that comment qualitatively on weather in the IMMA1 files. The texts roughly correspond to 9 specific positions in a line; therefore we extract the information in those 9 positions in each line. Some comment examples are "CLOUDY", "GOED WEER".
 
 # Preparation and Environment
 
@@ -29,4 +29,4 @@ The ICOADS_R3.0_Rqst705541_18150101.csv records (rows) have unique IDs that corr
 
 # Runtime and Results
 
-The resulting file is ship_data_with_comments.csv. Some other information may be mistakenly extracted as they are at the positions where there are usually comments, but as long as the real comments are also extracted, it is okay.
+The resulting file is `ship_data_with_comments.csv`. Some other information may be mistakenly extracted as they are at the positions where there are usually comments, but as long as the real comments are also extracted, it is okay.
