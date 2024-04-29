@@ -1,5 +1,9 @@
 # Task
-Collect the rainfall data from https://climexp.knmi.nl/selectstation.cgi?id=someone@somewhere with specified parameters through web scraping.
+
+Given a specified range of areas (typically in coordinates) and a given range of years, collect the rainfall data from https://climexp.knmi.nl/selectstation.cgi?id=someone@somewhere through web scraping. The two metrics to collect are:
+
+   - For a location, obtain its monthly rainfall during the specified years.
+   - For a location, obtain its average monthly rainfall (calculated throughout history).
 
 # Preparation and Environment
 
@@ -31,7 +35,7 @@ Collect the rainfall data from https://climexp.knmi.nl/selectstation.cgi?id=some
    ```
       Otherwise, it is defaulted to 0. There might be some numerical issues you'll have to fix. It sometimes appeared, and sometimes didn't. It seems to be depending on different stations since some stations have messed-up formats.
 
-4. For each station listed in the sample_rainfall_data, I was asked to extract the first two raw data (from two nested links). If you are asked to do something different, you will have to modify the scraper script yourself.
+4. For each station listed in the sample_rainfall_data, I was asked to extract the first two raw data (monthly rainfall and average monthly rainfall from two nested links). If you are asked to do something different, you will have to modify the scraper script yourself.
 
 
 # Runtime and Results
