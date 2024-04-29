@@ -9,7 +9,7 @@ Given a specified range of areas (typically in coordinates) and a given range of
 
 1. Figure out what years and locations you need. Go to the site linked above.
 
-2. After you finish selecting the parameters, click the button "Get stations" and you will be led to a new webpage. Download this webpage entirely in html. I have attached a sample called "sample_rainfall_data.html" in the rainfall_data directory. The reason I did this instead of just using the link is that using the link messed up the html format somehow. Below is an example of parameters:
+2. After you finish selecting the parameters, click the button "Get stations" and you will be led to a new webpage. Download this webpage entirely in html. I have attached a sample called `sample_rainfall_data.html` in the rainfall_data directory. The reason I did this instead of just using the link is that using the link messed up the html format somehow. Below is an example of parameters:
 
    <img width="850" alt="parameters" src="https://github.com/siennahsu/IOWC-Projects/assets/104809870/9b621b49-d68f-4d06-9e49-9ef7bba718fb">
 
@@ -35,7 +35,7 @@ Given a specified range of areas (typically in coordinates) and a given range of
    ```
       Otherwise, it is defaulted to 0. There might be some numerical issues you'll have to fix. It sometimes appeared, and sometimes didn't. It seems to be depending on different stations since some stations have messed-up formats.
 
-4. For each station listed in the sample_rainfall_data, I was asked to extract the first two raw data (monthly rainfall and average monthly rainfall from two nested links). If you are asked to do something different, you will have to modify the scraper script yourself.
+4. For each station listed in the `sample_rainfall_data.html`, I was asked to extract the first two raw data (monthly rainfall and average monthly rainfall from two nested links). If you are asked to do something different, you will have to modify the scraper script yourself.
 
 
 # Runtime and Results
@@ -46,4 +46,4 @@ Given a specified range of areas (typically in coordinates) and a given range of
     
 3. The resulting files are:
    - A csv file for each station named as stationID + location_name. This was designed as a checkpoint. If your program crashes, you can start with the stations you haven't scraped.
-   - An all_stations_data_csv. This is the csv that has all the data and the one you should hand in. See all_stations_data.csv in this directory as an example.
+   - An `all_stations_data_csv`. This is the csv that has all the data and the one you should hand in. See `all_stations_data.csv` in this directory as an example.
