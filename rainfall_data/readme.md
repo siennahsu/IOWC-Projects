@@ -33,4 +33,4 @@ Otherwise, it is defaulted to 0. There might be some numerical issues you'll hav
    
    8.1. A csv file for each station. This was designed as a checkpoint. If your program crashes, you can start with the stations you haven't scraped.
    
-   8.2. An all_stations_data_csv. This is the csv that has all the data and the one you should hand in.
+   8.2. An all_stations_data_csv. This is the csv that has all the data and the one you should hand in. See all_stations_data.csv in this directory as an example.
