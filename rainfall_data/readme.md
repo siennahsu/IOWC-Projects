@@ -25,7 +25,7 @@ anomaly = round(year_and_rainfall[i][1] / year_and_rainfall[i][2] * 100 , 2)
 
    Otherwise, it is defaulted to 0. There might be some numerical issues you'll have to fix. It sometimes appeared, and sometimes didn't. It seems to be depending on different stations since some stations have messed-up formats.
 
-6. The notebook has two sections: "Regular scraper script" and "Scraper script for large scale scraping". The large scale scraper script has a try-except block that disregards stations with incompatible formats. If that is what you desire, use this instead of the regular scraper script. I recommend using the large scale one.
+6. The notebook has two sections: "Regular scraper script" and "Scraper script for large scale scraping". The large scale scraper script has a try-except block that disregards stations with incompatible formats. Additionally, it doesn't require that a station has data from every year between START_YEAR and END_YEAR (so for example, a station can have only 2 years of data out of 1885-1900). The regular scraper script is for a more fine-tuned search, which requires that a station has all data out of the specified START_YEAR to END_YEAR (so for example, a station has to have 6 years of data out of 1885-1900). I recommend using the large scale script unless you're searching only a small area within a small timeline.
 
 7. It is normal that it could take hours to finish running the script.
     
