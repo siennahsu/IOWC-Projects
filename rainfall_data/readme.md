@@ -23,7 +23,7 @@ anomaly = round(year_and_rainfall[i][1] / year_and_rainfall[i][2] * 100 , 2)
 # anomaly = 0
 ```
 
-Otherwise, it is defaulted to 0. There might be some numerical issues you'll have to fix. It sometimes appeared, and sometimes didn't. It seems to be depending on different stations since some stations have messed-up formats.
+   Otherwise, it is defaulted to 0. There might be some numerical issues you'll have to fix. It sometimes appeared, and sometimes didn't. It seems to be depending on different stations since some stations have messed-up formats.
 
 6. The notebook has two sections: "Regular scraper script" and "Scraper script for large scale scraping". The large scale scraper script has a try-except block that disregards stations with incompatible formats. If that is what you desire, use this instead of the regular scraper script. I recommend using the large scale one.
 
