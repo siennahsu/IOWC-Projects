@@ -23,3 +23,6 @@ Instructions:
 
 3. It is normal that it could take hours to finish running the script.
     
+4. The resulting files are:
+   4.1. A csv file for each station. This was designed as a checkpoint. If your program crashes, you can start with the stations you haven't scraped.
+   4.2. An all_stations_data_csv. This is the csv that has all the data and the one you should hand in.
