@@ -84,7 +84,7 @@ This task extracts the PDSI, SPEI, and ENSO indices of years 1630-1690 from the 
     
 # Runtime and Results
 
-1. The `pdsi-spei-jun-to-aug.ipynb` and `pdsi-spei-dec-to-feb.ipynb` each ran for around 2 days, so be sure to allocate enough time. The extracted SPEI and PDSI files are attached in this directory, named jun_to_aug.csv and dec_to_feb.csv respectively. If you are only going to work with SPEI and PDSI, you can reuse these two csv files.
+1. The `pdsi-spei-jun-to-aug.ipynb` and `pdsi-spei-dec-to-feb.ipynb` each ran for around 2 days, so be sure to allocate enough time. The extracted SPEI and PDSI files are attached in this directory, named `jun_to_aug.csv` and `dec_to_feb.csv` respectively. If you are only going to work with SPEI and PDSI, you can reuse these two csv files.
 
 2. The graphs graphed in the `pdsi-spei-graphs.ipynb` and `enso-data.ipynb` are not automatically saved. You will need to manually download the graphs.
 
