@@ -46,4 +46,4 @@ Given a specified range of areas (typically in coordinates) and a given range of
     
 3. The resulting files are:
    - A csv file for each station named as stationID + location_name. This was designed as a checkpoint. If your program crashes, you can start with the stations you haven't scraped.
-   - An `all_stations_data_csv`. This is the csv that has all the data and the one you should hand in. See `all_stations_data.csv` in this directory as an example.
+   - An `all_stations_data.csv`. This is the csv that has all the data and the one you should hand in. See `all_stations_data.csv` in this directory as an example.
