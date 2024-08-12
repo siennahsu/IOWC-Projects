@@ -8,3 +8,4 @@ This is the code archive of the [Indian Ocean World Centre at McGill University]
   - `phyda`: Collection, statistics calculation, and graphing of data from the [Paleo Hydrodynamics Data Assimilation product (PHYDA)](https://zenodo.org/records/1198817).
   - `ocr_pdf`: PDF file processing, OCR, and image processing.
   - `lmr`: Extraction and calculation of mean precipitation rates based on [Last Millennium Reanalysis (LMR) Project Global Climate Reconstructions Version 2](https://www.ncei.noaa.gov/access/paleo-search/study/27850).
+  - `tree_ring`: Exploratory data analysis and visualization of tree ring data from [NOAA Paleo Data Search](https://www.ncei.noaa.gov/access/paleo-search/?dataTypeId=18).
