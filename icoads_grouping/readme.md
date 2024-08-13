@@ -6,7 +6,6 @@ The resulting climate zones 1, 2, 3, and 4 correspond to the yellow lines below.
 <img width="810" alt="Screen Shot 2024-08-13 at 12 50 28 PM" src="https://github.com/user-attachments/assets/7a0310c2-721f-4d9c-be1e-dd33f2937734">
 
 For each grid group, we define the density of the grid group as the number of data points in the group. For each climate zone, we set different thresholds (after some EDA and manual inspection) to categorize a grid group into "high density" or "low density." For climate zone 3, we additionally have the tag "median density." For climate zones 1, 2, and 4, we further qualify high-density grid groups into target zones. For climate zone 3, we qualify the high-density grid groups and median-density grid groups into target zones 3.1 and 3.2 respectively. This results in the graph below (purple is high-density, green is median, and red is low):
-
 ![ICOADS Regions Density](https://github.com/user-attachments/assets/f099d357-5a00-4e4a-80fc-c9aa7ffa252c)
 
 The zoning data is important for the next task, which is detailed in the directory `IOWC-Projects/icoads_analysis`. The same zoning scheme is also used in `IOWC-Projects/reanalysis`.
