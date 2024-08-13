@@ -13,7 +13,7 @@ The PDF tools are:
 
 1. Making a PDF searchable.
 2. Combining a directory of ordered images into a PDF.
-3. Combining multiple ordered PDFs into a PDF.
+3. Combining a directory of ordered PDFs into a PDF.
 4. Splitting a PDF into n smaller PDFs.
 
 The detailed instructions on how to use each widget are in the notebook.
