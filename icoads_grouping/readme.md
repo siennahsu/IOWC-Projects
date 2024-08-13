@@ -18,7 +18,8 @@ Nothing specific is required to run this script.
 
 # Code Customization
 
-There is a section called "Deciding threshold" and a section called "EDA." If for any reason, you'd like to change the thresholds of high/median/low densities for a climate zone, you can play around these two sections.
+1. There is a section called "Deciding threshold" and a section called "EDA." If for any reason, you'd like to change the thresholds of high/median/low densities for a climate zone, you can play around these two sections.
+2. Change the file paths in the code according to your file organization.
 
 # Runtime and Results
 
