@@ -12,7 +12,6 @@ This task extracts the mean precipitation rate (prate) from the [Last Millennium
     ```
     pip install netcdf4
     ```
-4. Change the file path according to your file organization.
 
 # Code customization
 
