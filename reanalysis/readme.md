@@ -15,6 +15,7 @@ Lastly, we compare the zone annual prate to the zone rainfall percentage calcula
     ```
     pip install netcdf4
     ```
+4. The comparison section of the code requires `zone{i}_annual_data.csv` generated in `IOWC-Projects/icoads_analysis` to run.
 
 # Code Customization
 1. Change the file path according to your file organization.
