@@ -12,6 +12,8 @@ The IOWC Historical Climate Site, at the time of writing, can only be accessed o
    <img width="894" alt="Screen Shot 2024-08-14 at 12 28 45 PM" src="https://github.com/user-attachments/assets/f048d0ab-f92f-4216-bdd1-cd0c89a598ae">
    <img width="893" alt="Screen Shot 2024-08-14 at 12 28 56 PM" src="https://github.com/user-attachments/assets/07996584-1db1-4916-83a8-3c565cb0603f">
 
+3. Two example csv files downloaded from the IOWC Historical Climate Site and used in the script are included in the current directory. You can check out the format.
+
 # Code Customization
 
 Change the file path according to your file organization.
