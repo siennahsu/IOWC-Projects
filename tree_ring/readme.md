@@ -8,7 +8,7 @@ I explore both the raw measurements of tree growth and the Transformed Ring-Widt
 
 This script scrapes some data from the NOAA site. I recommend using Colab because my local machine sometimes has problems with HTTP requests.
 
-# Code customization
+# Code Customization
 
 1. As you might know, a lot of NOAA data are in .txt format and are not csv-friendly. In the script, some code clocks require a text file as input for graphing where the irrelevant lines are already deleted (like those that start with #). For other blocks, all you need to input is the link to the text files. Change the file paths in the code according to your file organization.
 2. It should be straightforward to set the time ranges of the graphs once you see the code.
