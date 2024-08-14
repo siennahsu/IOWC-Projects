@@ -11,3 +11,4 @@ This is the code archive of the [Indian Ocean World Centre at McGill University]
   - `icoads_grouping`: Adding climate zone information to the ship log data from [ICOADS](https://icoads.noaa.gov/products.html). The climate zoning scheme developed here is used in `icoads_analysis` and `reanalysis`. 
   - `icoads_analysis`: Collection of data from the [NCAR Research Data Archive](https://rda.ucar.edu/) to expand the ship log data mentioned above. Statistical analysis and visualization of data.
   - `reanalysis`: Collection of data from the [NOAA-CIRES-DOE Twentieth Century Reanalysis (20CR) project](https://psl.noaa.gov/data/20thC_Rean/). Statistical analysis and visualization of data. Comparison to ICOADS data.
+  - `ghcnm`: Collection and analysis of rain gauge data from [Global Historical Climatology Network - Monthly (GHCN-M) v2](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00835). 
