@@ -28,7 +28,7 @@ This task extracts the PDSI, SPEI, and ENSO indices of years 1630-1690 from the 
         
 4. I recommend using your local machine to run as some scripts run for a long time and need persistent storage (so don't use Colab).
 
-# Code customization
+# Code Customization
 
 1. Change the file paths in the code according to your file organization.
 
