@@ -28,7 +28,7 @@ For this task, we do the following:
 
 2. This script runs pretty fast so using your machine is fine.
 
-# Code customization
+# Code Customization
 
 1. If you wish to set a different threshold, remember to change it accordingly in the second code block of the notebook.
 
