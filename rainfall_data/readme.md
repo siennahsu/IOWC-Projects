@@ -15,7 +15,7 @@ Given a specified range of areas (typically in coordinates) and a given range of
 
 3. I recommend using Colab (so use the Cloud). I tried running this script on my local machine and it kept crashing because of intensive     http connection requests (I was using MacOS 12.5 with M2 chip). Colab environment had no problem running it.
 
-# Code customization
+# Code Customization
 
 1. Set the START_YEAR and END_YEAR global variables according to your task.
 
