@@ -24,7 +24,7 @@ For this task, we do the following:
 
 # Preparation and Environment
 
-1. Be sure to have the `all_stations_data.csv` file for the `rainfall_selection.ipynb` script.
+1. Be sure to have the `all_stations_data.csv` generated in `IOWC-Projects/rainfall_data/` for the `rainfall_selection.ipynb` script.
 
 2. This script runs pretty fast so using your machine is fine.
 
