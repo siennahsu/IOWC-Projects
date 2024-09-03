@@ -2,7 +2,7 @@
 
 Obtain the rain gauge data from [Global Historical Climatology Network - Monthly (GHCN-M) v2](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00835) accessed through the [IOWC Historical Climate Site](https://github.com/coconutcastle/historical-climate-data). Organize the data into seasonal data (Nov-Feb and Jun-Aug) and calculate anomalies.
 
-The IOWC Historical Climate Site, at the time of writing, can only be accessed offline. For instructions on how to download relevant data and software, see `iowc_offiline_guide.pdf`.
+The IOWC Historical Climate Site can be accessed [here](https://iowc.geog.mcgill.ca/). If you wish to access the site offline, see instructions on downloading relevant data and software at `iowc_offiline_guide.pdf`.
 
 # Preparation and Environment
 
